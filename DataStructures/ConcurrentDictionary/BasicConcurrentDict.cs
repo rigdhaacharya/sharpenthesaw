@@ -6,7 +6,7 @@ namespace ConcurrentDictionary
     /// This is a basic concurrent dictionary. We don't handle expanding the array
     /// or hash collisions here and we only handle int values
     /// </summary>
-    public class BasicCocurrentDict
+    public class BasicConcurrentDict
     {
         /// <summary>
         /// This is the total size of our dictionary. We can expand arrays later for more real use cases
@@ -28,7 +28,7 @@ namespace ConcurrentDictionary
         /// <summary>
         /// Default constructor, just initializes the objects
         /// </summary>
-        public BasicCocurrentDict()
+        public BasicConcurrentDict()
         {
             //initialize the value array with -1
             for (int i = 0; i < _size; i++)
