@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPathsToTarget", "AllPath
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPathsToTargetTest", "AllPathsToTargetTest\AllPathsToTargetTest.csproj", "{4E7EEE17-D13C-4216-8164-7276179E101F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslands", "NumberOfIslands\NumberOfIslands.csproj", "{3C694CAF-C673-45C1-9E79-C1D033E02770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslandsTest", "NumberOfIslandsTest\NumberOfIslandsTest.csproj", "{88AAE818-B7C6-4593-84E4-4613590F1E67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4E7EEE17-D13C-4216-8164-7276179E101F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E7EEE17-D13C-4216-8164-7276179E101F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E7EEE17-D13C-4216-8164-7276179E101F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C694CAF-C673-45C1-9E79-C1D033E02770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C694CAF-C673-45C1-9E79-C1D033E02770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C694CAF-C673-45C1-9E79-C1D033E02770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C694CAF-C673-45C1-9E79-C1D033E02770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88AAE818-B7C6-4593-84E4-4613590F1E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AAE818-B7C6-4593-84E4-4613590F1E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AAE818-B7C6-4593-84E4-4613590F1E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AAE818-B7C6-4593-84E4-4613590F1E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
