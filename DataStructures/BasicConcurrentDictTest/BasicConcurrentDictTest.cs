@@ -11,7 +11,7 @@ namespace BasicConcurrentDictTest
         [TestMethod]
         public void BasicAdd()
         {
-            var dict = new BasicCocurrentDict();
+            var dict = new BasicConcurrentDict();
             dict.AddOrUpdate("r", 1);
             var value = dict.Get("r");
             Assert.AreEqual(1, value);
@@ -25,7 +25,7 @@ namespace BasicConcurrentDictTest
         [TestMethod]
         public void BasicUpdate()
         {
-            var dict = new BasicCocurrentDict();
+            var dict = new BasicConcurrentDict();
             dict.AddOrUpdate("r", 1);
             var value = dict.Get("r");
             Assert.AreEqual(1, value);
@@ -38,7 +38,7 @@ namespace BasicConcurrentDictTest
         [TestMethod]
         public void ConcurrentGet()
         {
-            var dict = new BasicCocurrentDict();
+            var dict = new BasicConcurrentDict();
             var numTasks = 128;
             dict.AddOrUpdate("r", 1);
             Parallel.For(0, numTasks, (index) =>
@@ -52,7 +52,7 @@ namespace BasicConcurrentDictTest
         [TestMethod]
         public void ConcurrentUpdate()
         {
-            var dict = new BasicCocurrentDict();
+            var dict = new BasicConcurrentDict();
             var numTasks = 128;
             dict.AddOrUpdate("r", 1);
             int lastThread = 0;
