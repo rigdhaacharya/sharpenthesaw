@@ -98,16 +98,7 @@ namespace WordSearchProblem
 
             return result;
         }
-
-        private void ZeroOutCurrentStem(Coordinate currentCoordinate, char[][] board)
-        {
-            foreach (var coordinate in currentCoordinate.Stem)
-            {
-                board[coordinate.X][coordinate.Y] = '0';
-            }
-
-            board[currentCoordinate.X][currentCoordinate.Y] = '0';
-        }
+        
 
         private void AddNeighbors(Queue<Coordinate> coordinateQueue, Coordinate coordinate, char[][] board, List<Coordinate> currentStem)
         {
