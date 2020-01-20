@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindrome", "Longes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromeTest", "LongestPalindromeTest\LongestPalindromeTest.csproj", "{57ADD1D9-0D1B-4494-B522-F74C1325096A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianFinder", "MedianFinder\MedianFinder.csproj", "{981FCC65-E207-4A08-A3DF-7C8D27B37C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianFinderTest", "MedianFinderTest\MedianFinderTest.csproj", "{7F043D1C-1C88-4FD3-B502-E50C59CC2B6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{57ADD1D9-0D1B-4494-B522-F74C1325096A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57ADD1D9-0D1B-4494-B522-F74C1325096A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57ADD1D9-0D1B-4494-B522-F74C1325096A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981FCC65-E207-4A08-A3DF-7C8D27B37C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981FCC65-E207-4A08-A3DF-7C8D27B37C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981FCC65-E207-4A08-A3DF-7C8D27B37C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981FCC65-E207-4A08-A3DF-7C8D27B37C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F043D1C-1C88-4FD3-B502-E50C59CC2B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F043D1C-1C88-4FD3-B502-E50C59CC2B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F043D1C-1C88-4FD3-B502-E50C59CC2B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F043D1C-1C88-4FD3-B502-E50C59CC2B6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

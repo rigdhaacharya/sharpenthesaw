@@ -7,13 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPath", "PathProblem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestPathTest", "ShortestPathTest\ShortestPathTest.csproj", "{86617BC0-E0E6-4FFE-9F2F-2FBE188AA3FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPathsToTarget", "AllPathsToTarget\AllPathsToTarget.csproj", "{05146343-12BD-495A-9EB6-4B8D5B049223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllPathsToTarget", "AllPathsToTarget\AllPathsToTarget.csproj", "{05146343-12BD-495A-9EB6-4B8D5B049223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPathsToTargetTest", "AllPathsToTargetTest\AllPathsToTargetTest.csproj", "{4E7EEE17-D13C-4216-8164-7276179E101F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllPathsToTargetTest", "AllPathsToTargetTest\AllPathsToTargetTest.csproj", "{4E7EEE17-D13C-4216-8164-7276179E101F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslands", "NumberOfIslands\NumberOfIslands.csproj", "{3C694CAF-C673-45C1-9E79-C1D033E02770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIslands", "NumberOfIslands\NumberOfIslands.csproj", "{3C694CAF-C673-45C1-9E79-C1D033E02770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslandsTest", "NumberOfIslandsTest\NumberOfIslandsTest.csproj", "{88AAE818-B7C6-4593-84E4-4613590F1E67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIslandsTest", "NumberOfIslandsTest\NumberOfIslandsTest.csproj", "{88AAE818-B7C6-4593-84E4-4613590F1E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearchProblem", "WordSearchProblem\WordSearchProblem.csproj", "{15370263-1F06-494C-AEB7-3C0B707CA5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSearchProblemTest", "WordSearchProblemTest\WordSearchProblemTest.csproj", "{758A74A1-37BA-401A-B296-9B8719EBA191}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{88AAE818-B7C6-4593-84E4-4613590F1E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88AAE818-B7C6-4593-84E4-4613590F1E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88AAE818-B7C6-4593-84E4-4613590F1E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15370263-1F06-494C-AEB7-3C0B707CA5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15370263-1F06-494C-AEB7-3C0B707CA5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15370263-1F06-494C-AEB7-3C0B707CA5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15370263-1F06-494C-AEB7-3C0B707CA5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758A74A1-37BA-401A-B296-9B8719EBA191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758A74A1-37BA-401A-B296-9B8719EBA191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758A74A1-37BA-401A-B296-9B8719EBA191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758A74A1-37BA-401A-B296-9B8719EBA191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
